@@ -1,0 +1,11 @@
+<%- include("partials/header.ejs") %>
+
+<form action="/new" method="post">
+    <label for="title">Title</label><br>
+    <input type="text" id="title" name="title" required> <br>
+    <label for="content">Text</label><br>
+    <textarea  id="content" name="content" required></textarea> <br>
+    <button type="submit" value="Submit">Submit</button>
+</form>
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,129 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Table */
+table {
+    border-spacing: 0; /* Remove spacing between cells */
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Navbar */
+nav ul {
+    list-style-type: none; /* Removes bullets */
+    margin: 0;            
+    padding: 0;            
+    display: flex;         
+    gap: 10px;             
+    background-color: #333;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 8px;
+}
+
+
+
+/* Form */
+form {
+    max-width: 600px; 
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;
+}
+
+form label {
+    display: block; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%; /* Full width to fit the form container */
+    padding: 12px; 
+    margin-bottom: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+form button[type="submit"] {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+form button[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+
+
+/* Post */
+.post-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 16px;
+}

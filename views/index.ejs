@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+<table>
+    <tr>
+        <th>My Posts</th>
+    </tr>
+    <% for (let i = 0; i < posts.length; i++) { %>
+        <tr>
+            <td><a href="/posts/<%= i %>"><%= posts[i].title %></a></td> <!-- Here the dynamic :id gets created -->
+        </tr>
+    <% } %>
+</table>
+
+<%- include("partials/footer.ejs") %>
+
